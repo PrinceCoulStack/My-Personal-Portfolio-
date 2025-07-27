@@ -1,0 +1,459 @@
+/* Start Section Home  */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    color: #333;
+    background-color: #f9f9f9;
+    
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+header{
+    padding: 0 20px;
+    background-color: #2f80ed;
+}
+.menuToogle{
+    text-align: center;
+    display: flex;
+    /* justify-content: space-between; */
+}
+.menuLinks{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menuLinks li{
+    margin: 0 20px;
+    padding: 10px 0;
+    text-align: center;
+    list-style: none;  
+}
+.menuLinks li:hover{
+    background-color: #27ae60;
+    border-top: 3px solid #f2c94c;
+    transition:  0.3s ease;
+}
+.menuLinks a{
+    text-decoration: none;
+    color: #fff;    
+}
+.hero{
+    margin: 20px;
+    padding: 0;
+}
+.hero .chero{
+    display: flex;
+    position: relative;
+}
+.hero .left{
+    flex-direction: 1;
+    width: 60%;
+    /* height: 40%; */
+}
+.hero .greet{
+    color: #eaaf01;
+    font-weight: 800;
+}
+.hero h1{
+    padding-bottom: 5px;
+}
+.btt{
+    padding: 0 25% ;
+}
+.bttn{
+    background-color: #27ae60;
+    border-radius: 10px;
+    border-color: #27ae60;
+    padding: 5px;
+
+}
+.bttn a{
+    text-decoration: none;
+    color: #fff;
+}
+.hero .right{
+    width: 55%;
+    /* height: 50px; */
+}
+
+.hero .font3{
+    border-radius: 50%;
+}
+.font3 img{
+    border-radius: 50%;
+    width: 50%;
+    height: 50%;
+    margin: 0 30%;
+}
+.experiencess{
+    padding: 10px;
+    width: 80%;
+    background-color: #05e827;
+    margin: 20px auto;
+    border-radius: 10px;
+    
+}
+.experiencesss{
+    display: flex;
+    text-align: center;
+    margin: 0 20%;
+    justify-content: space-between;
+}
+.experiencesss .text h3{
+    color: #f2c94c;
+    margin-bottom: 2px;
+}
+.experiencesss .text p{
+    color: #fff;
+    margin-top: 2px;
+    margin-bottom: 4px;
+}
+.service{
+    margin-top: 10px;
+}
+.ser-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px,1fr));/*the min width of the grid should be 300px and fit to all the screen */
+    gap: 10px; /*space between all the grip*/
+    margin-top: 30px;
+    justify-items: center;
+}
+.serv, .serve{
+    background-color: #fff;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+    max-width: 200px;
+    height: 100%;
+    margin: 10px;
+    padding: 5px;
+    box-shadow:  0px 4px 20px 0 rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease-in-out;
+}
+.serv h3, .serve h3{
+    color: #eaaf01;
+    margin-bottom: 3px;
+}
+.serve{
+    height: 50%;
+    margin: 50px 0;
+}
+.serv:hover{
+    transform: translateY(-10px);
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.8);
+}
+.serv:hover h3, .serve:hover h3{
+    text-decoration: underline;
+}
+.serve:hover{
+    transform: translateX(20px);
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.8);
+}
+.project{
+    margin: 20px;
+}
+.project-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
+    gap: 10px;
+    margin: 20px;
+    margin-top: 30px;
+    /* justify-items: center; */
+}
+.each-project{
+    justify-content: center;
+    max-width: 200px;
+    /* border-color: rgba(0, 0, 0, 0.1); */
+}
+.project-image img{
+    width: 150px;
+    height: 150px;
+}
+
+footer{
+    background-color: #2f80ed;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+}
+/* End of Section home  */
+/* begining of section about */
+.about{
+    margin: 20px;
+}
+.about-me{
+    display: flex;
+}
+.about-me .left{
+    flex: 1;
+    width: 40%;
+}
+.about-me .left img{
+    width: 150px;
+    border-radius: 50%;
+    margin: 50px;
+}
+.about-me .right{
+    margin-top: 10px;
+}
+.hobby{
+    margin: 20px;
+}
+.hobby h2{
+    text-align: center;
+    color: #eaaf01;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+.each-hobby h3{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: #27ae60;
+    text-transform: uppercase;
+    
+}
+.each{
+    display: flex;
+    margin-bottom: 25px;
+}
+.each-hobby .left{
+    flex: 1;
+    width: 50% ;
+} .each p{
+    text-align: center;
+    
+    padding: 50px 10px;
+    
+}
+.each-hobby .right{
+    width: 48%;
+}
+.each-hobby img{
+    width: 150px;
+    width: 70%;
+    height: 150px;
+}
+/* end of section about */
+/* Start of section Skill */
+.skill{
+    margin: 20px;
+}
+.skills{
+    margin-top: 10px;
+}
+.skills h2{
+    text-align: center;
+    color: #eaaf01;
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin-bottom: 15px;
+}
+.all-skill{
+    display: flex;
+    
+}
+.each-skill{
+    display: flex;
+    margin: 10px auto;
+}
+.competence{
+    flex: 1;
+    /* width: 48%; */
+    margin-right: 20px;
+    margin-left: 10px;
+}
+.competence h3{
+    margin-bottom: 10px;
+    color: #05e827;
+    text-transform: uppercase;
+    text-align: center;
+}
+.competence p{
+    margin-bottom: 5px;
+}
+.level{
+    /* width: 50%; */
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.level h3{
+    margin-bottom: 10px;
+    color: #05e827;
+    text-transform: uppercase;
+    text-align: center;
+}
+.level p{
+    margin-bottom: 5px;
+}
+/* End of section Skill */
+/* Start of section Project  */
+.project{
+    margin: 10px;
+}
+h2{
+    color:#eaaf01;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.projects{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 30px;
+}
+.each-projects{
+    max-width: 200px;
+    background-color: #edebeb ;
+    /* border: 5px solid #ababab; */
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    box-shadow: 10px 10px 0 rgba(20, 20, 20, 0.1);
+    transition: box-shadow 2s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+    transition:  0.3s ease;
+}
+.each-projects:hover{
+    box-shadow: 20px 10px 0 rgba(20, 20, 20, 0.5);
+    transition:  0.3s ease;
+}
+.each-projects img{
+    width: 30%;
+    height: 30%;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.each-projects:hover .img{
+    transform: scale(1.1);
+    transition:  0.3s ease;
+}
+.each-projects h3{
+    color: #05e827;
+    margin-bottom: 10px;
+}
+.tool{
+    text-decoration: underline;    
+}
+.tools{
+    text-align: left;
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+/* End section Project  */
+/* Start of section Experience  */
+.Experience h2{
+    margin-top: 15px;
+}
+.experiencs{
+    /* margin: 0 auto ; */
+    padding: 0 100px ;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.each-exp{
+    display: flex;
+}
+.year{
+    margin-right: 30px;
+    /* margin: 5px 0; */
+}
+.year h3{
+    color: #05e827;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.year p{
+    margin-bottom: 3px;
+}
+.domain{
+    margin-right: 30px;
+}
+.domain h3{
+    color: #05e827;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.domain p{
+    margin-bottom: 3px;
+}
+.Location{
+    margin-bottom: 30px;
+}
+.Location h3{
+    color: #05e827;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.Location p{
+    margin-bottom: 3px;
+}
+/* End of section .experience  */
+/* Start of Section Contact */
+.contact{
+    margin: 20px;
+}
+.contact h2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.container .brief{
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color:#edebeb;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+form{
+    text-align: left;
+    margin-left: 50px;
+    
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+input, select, textarea, .send{
+    margin-left: 50px;
+    width: 30%;
+    margin-bottom: 15px;
+    display: block;
+    text-align: center;
+
+}
+textarea{
+    height: 100px;
+    resize: vertical;
+}
+
+.send{
+    background-color:#05e827;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.cont .icon{
+    display: flex;
+    margin-top: 15px;
+}
+.icon img{
+    width: 40px;
+    height: 30px;
+}
+.icon p{
+    padding: 5px 10px;
+}
+
+
+
+/* End of section Contact  */
